@@ -1,8 +1,15 @@
 body {
     background-color: crimson;
 }
-
-
+ p {
+    color: rgb(255, 149, 149);
+ }
+ .destacado {
+    font-weight: bold;
+ }
+ #importante {
+    font-size: 20px;
+ }
     .box {
         width: 200px;
         height: 100px;
@@ -10,8 +17,7 @@ body {
         border: 5px solid black;
         margin: 20px;
         background-color: lightgray;
-        border: 3px salmon;
-        box-sizing: border-box;
+        
     }
 
     .centered {
