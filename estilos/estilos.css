@@ -6,8 +6,15 @@ body {
     .box {
         width: 200px;
         height: 100px;
-        padding: 10px;
+        padding: 10px 15px 20px 25px; /* Arriba, Derecha, Abajo Izquierda */
         border: 5px solid black;
         margin: 20px;
         background-color: lightgray;
+        border: 3px salmon;
+        box-sizing: border-box;
+    }
+
+    .centered {
+        width: 50%;
+        margin: auto;
     }
