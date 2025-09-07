@@ -3,6 +3,8 @@ background:
   linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(58, 45, 37, 0.74)),
   url('/pen-4337521_1280.jpg');
 background-size: cover;
+background-attachment: fixed;
+background-position: center;
    /* object-fit: contain; */
  
    
@@ -17,6 +19,14 @@ background-size: cover;
  #importante {
     font-size: 20px;
  }
+ .img {
+      width: 450px;
+      height: auto;
+      border-radius: 20px;
+      border: 5px solid black;
+      box-shadow: 10px 10px 5px grey;
+      
+ }
     .box {
         width: 200px;
         height: 100px;
@@ -26,7 +36,47 @@ background-size: cover;
         background-color: lightgray;
         
     }
+    .card {
+        width: 100px;
+        height: 200px;
+        padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
+        border: 3px solid black;
+        margin: 20px;
+        background-color: rgba(241, 7, 7, 0.315); 
+    }
+    .card1 {
+       width: 100px;
+        height: 200px;
+        padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
+        border: 3px solid black;
+        margin: 20px;
+        background-color: lightblue;
+    }
 
+        .card2 {
+            width: 100px;
+            height: 200px;
+            padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
+            border: 3px solid black;
+            margin: 20px;
+            background-color: lightgreen;
+        }
+      .card3 {
+          width: 100px;
+          height: 200px;
+          padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
+          border: 3px solid black;
+          margin: 20px;
+          background-color: yellow;
+      }
+      .card4 {
+          width: 100px;
+          height: 200px;
+          padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
+          border: 3px solid black;
+          margin: 20px;
+          background-color: orange;
+      }
     .centered {
         width: 50%;
         margin: auto;
