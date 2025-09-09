@@ -6,7 +6,7 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center;
    /* object-fit: contain; */
- 
+ font-family: ´Cossette sans-serif 
    
 }
  p {
@@ -43,6 +43,7 @@ background-position: center;
         border: 3px solid black;
         margin: 20px;
         background-color: rgba(241, 7, 7, 0.315); 
+        font-family: sans-serif 
     }
     .card1 {
        width: 100px;
@@ -51,6 +52,10 @@ background-position: center;
         border: 3px solid black;
         margin: 20px;
         background-color: lightblue;
+        h1 {
+  font-family: 'Cossette Titre', sans-serif;
+}
+
     }
 
         .card2 {
@@ -60,6 +65,8 @@ background-position: center;
             border: 3px solid black;
             margin: 20px;
             background-color: lightgreen;
+            text-transform: uppercase;
+            text-shadow: 5px;
         }
       .card3 {
           width: 100px;
@@ -76,6 +83,26 @@ background-position: center;
           border: 3px solid black;
           margin: 20px;
           background-color: orange;
+      }
+      .card5 {
+        width: 100px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+        border: 3px solid black;
+        margin: 20px;
+        background: linear-gradient(to left,rgba(0, 145, 150, 0.35), rgba(255, 38, 146, 0.35));
+        /* background-size: cover; */
+      }
+      .card5 img{
+        object-fit: cover;
+        width: 120px;
+        margin-top: 20px;
+      }
+      .img1 { 
+          width: 100%;
+          height: auto;
+          display: block;
+          object-fit: contain;
       }
     .centered {
         width: 50%;
