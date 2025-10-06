@@ -1,119 +1,220 @@
 body {
-background: 
-  linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(58, 45, 37, 0.74)),
-
-  url('pen-4337521_640.jpg');
-
-background-size: cover;
-background-attachment: fixed;
-background-position: center;
-   /* object-fit: contain; */
- font-family: ´Cossette sans-serif 
-   
-}
- p {
-    color: black(255, 149, 149);
- }
- .destacado {
-    font-weight: bold;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
- }
- #importante {
-    font-size: 20px;
- }
- .img {
-      width: 450px;
-      height: auto;
-      border-radius: 20px;
-      border: 5px solid black;
-      box-shadow: 10px 10px 5px grey;
-      
- }
-    .box {
-        width: 200px;
-        height: 100px;
-        padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
-        border: 3px solid black;
-        margin: 20px;
-        background-color: lightgray;
-        
-    }
-    .card {
-        width: 100px;
-        height: 200px;
-        padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
-        border: 3px solid black;
-        margin: 20px;
-        background-color: rgba(241, 7, 7, 0.315); 
-        font-family: sans-serif 
-    }
-    .card1 {
-       width: 100px;
-        height: 200px;
-        padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
-        border: 3px solid black;
-        margin: 20px;
-        background-color: lightblue;
-        h1 {
+  background:
+    linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(58, 45, 37, 0.74)),
+    url('pen-4337521_640.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   font-family: 'Cossette Titre', sans-serif;
 }
 
-    }
+p {
+  color: rgb(255, 149, 149);
+  font-size: 1.2rem; /* rem units for paragraphs */
+}
 
-        .card2 {
-            width: 100px;
-            height: 200px;
-            padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
-            border: 3px solid black;
-            margin: 20px;
-            background-color: lightgreen;
-            text-transform: uppercase;
-            text-shadow: 5px;
-        }
-      .card3 {
-          width: 100px;
-          height: 200px;
-          padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
-          border: 3px solid black;
-          margin: 20px;
-          background-color: yellow;
-      }
-      .card4 {
-          width: 100px;
-          height: 200px;
-          padding: 10px 10px 10px 10px; /* Arriba, Derecha, Abajo Izquierda */
-          border: 3px solid black;
-          margin: 20px;
-          background-color: orange;
-      }
-      .card5 {
-        width: 100px;
-        height: 200px;
-        padding: 10px 10px 10px 10px;
-        border: 3px solid black;
-        margin: 20px;
-        background: linear-gradient(to left,rgba(0, 145, 150, 0.35), rgba(255, 38, 146, 0.35));
-        /* background-size: cover; */
-      }
-      .card5 img{
-        object-fit: cover;
-        width: 120px;
-        margin-top: 20px;
-      }
-      .img1 { 
-          width: 100%;
-          height: auto;
-          display: block;
-          object-fit: contain;
-      }
-    .centered {
-        width: 50%;
-        margin: auto;
-    }
+.destacado {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 
-   section ul li {
-      list-style-type: disclosure-closed;
-   }
+#importante {
+  font-size: 20px;
+}
 
+.img {
+  width: 450px;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid black;
+  box-shadow: 10px 10px 5px grey;
+  max-width: 100%;
+  object-fit: contain;
+}
 
-   
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 1em; /* em units for padding */
+  border: 3px solid black;
+  margin: 1em; /* em units for margin */
+  background-color: lightgray;
+}
+
+.galeria {
+  width: 80vw; /* vw units for width */
+  height: 60vh; /* vh units for height */
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3); /* transparent rgba background */
+  background-image: url('pen-4337521_1280.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 200px;
+  padding: 1em; /* em units */
+  border: 3px solid black;
+  margin: 1em; /* em units */
+  background-color: #ff0000; /* hex color */
+  font-family: 'Cossette Titre', sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card p {
+  font-size: 1rem; /* rem units */
+}
+
+.card1 {
+  width: 100px;
+  height: 200px;
+  padding: 1em;
+  border: 3px solid black;
+  margin: 1em;
+  background-color: rgb(0, 0, 255); /* RGB color */
+  font-family: 'Edu NSW ACT Cursive', cursive;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card1 p {
+  font-size: 1rem;
+}
+
+.card2 {
+  width: 100px;
+  height: 200px;
+  padding: 1em;
+  border: 3px solid black;
+  margin: 1em;
+  background: linear-gradient(to right, #00ff00, #0000ff); /* linear gradient */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: 'Cossette Titre', sans-serif;
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card2 p {
+  font-size: 1rem;
+}
+
+.card3 {
+  width: 100px;
+  height: 200px;
+  padding: 1em;
+  border: 3px solid black;
+  margin: 1em;
+  background: radial-gradient(circle, #ffff00, #ff0000); /* radial gradient */
+  font-family: 'Edu NSW ACT Cursive', cursive;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card3 p {
+  font-size: 1rem;
+}
+
+.card4 {
+  width: 100px;
+  height: 200px;
+  padding: 1em;
+  border: 3px solid black;
+  margin: 1em;
+  background-color: rgb(255, 165, 0); /* RGB color */
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  font-family: 'Cossette Titre', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card4 p {
+  font-size: 1rem;
+}
+
+.card5 {
+  width: 100px;
+  height: 200px;
+  padding: 1em;
+  border: 3px solid black;
+  margin: 1em;
+  background: linear-gradient(to left, rgba(0, 145, 150, 0.35), rgba(255, 38, 146, 0.35));
+  font-family: 'Edu NSW ACT Cursive', cursive;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card5 img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card5 p {
+  font-size: 1rem;
+}
+
+.comparison {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding: 1em;
+  border: 2px solid #000;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.comparison p.px {
+  font-size: 16px; /* px: absolute unit, fixed size */
+}
+
+.comparison p.em {
+  font-size: 1em; /* em: relative to parent font-size */
+}
+
+.comparison p.rem {
+  font-size: 1rem; /* rem: relative to root font-size */
+}
+
+/* Difference: px is absolute and doesn't scale with parent elements.
+   em is relative to the font-size of the parent element, so it scales.
+   rem is relative to the root element's font-size, providing consistent scaling. */
+
+.centered {
+  width: 50%;
+  margin: auto;
+}
+
+section ul li {
+  list-style-type: disclosure-closed;
+}
